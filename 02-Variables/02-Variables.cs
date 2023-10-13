@@ -34,9 +34,11 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-            
-
+            string Name = "echo";
+            Console.WriteLine(Name);
+            Console.ReadLine();
         }
+
     }
 }
 
