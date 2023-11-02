@@ -53,7 +53,12 @@ namespace ProgrammingExercisesIST
             double x = Convert.ToDouble(Console.ReadLine());
 
             // Your code goes below here
+            Console.WriteLine("please enter  a number for y");
+            double y = Convert.ToDouble(Console.ReadLine());
 
+            Console.WriteLine(x +y);
+
+            Console.ReadLine();
         }
     }
 }

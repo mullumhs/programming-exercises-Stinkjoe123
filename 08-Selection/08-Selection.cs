@@ -53,7 +53,14 @@ namespace ProgrammingExercisesIST
             int mark = Convert.ToInt32(Console.ReadLine());
 
             // Your code goes below here
+            string name = ("Jordyn");
+            if (mark < 50) 
+            {
+                Console.WriteLine("fail");
+            }
 
+
+                        
         }
     }
 }
