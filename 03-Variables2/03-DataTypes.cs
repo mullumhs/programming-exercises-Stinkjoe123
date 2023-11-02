@@ -44,7 +44,10 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-
+            string apples = "cake";
+            double preciseNumber = 6.9;
+            Console.WriteLine("my fav food is: " + apples);
+            Console.ReadLine();
         }
     }
 }

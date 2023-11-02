@@ -39,6 +39,10 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
+            string name = Console.ReadLine();
+            Console.WriteLine($"hello {name}");
+            Console.ReadLine();
+
 
         }
     }
