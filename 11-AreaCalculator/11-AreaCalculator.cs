@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Schema;
 
 /*
 ===============================================================================
@@ -50,8 +51,15 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-            Console.WriteLine()
-        }
+            Console.WriteLine("area of a rectangle calculator");
+
+            Console.WriteLine("please enter the units");
+            string length = Console.ReadLine();
+
+            Console.WriteLine("please enter the length of the rectangle");
+            double width = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine($"your answer is {length * width} {units}");
     }
 }
 
