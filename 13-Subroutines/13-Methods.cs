@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
 
 /*
 ===============================================================================
@@ -34,11 +35,33 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Call the methods here
-            
+            hello();
+            bye();
+            Wait();
         }
 
         // Write your methods here
+        static void Wait()
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine();
+            Console.WriteLine("press any key to continue...");
+            Console.ReadLine();
+        }
 
+        static void hello()
+        {
+            Console.WriteLine("please enter name");
+            string name = Console.ReadLine();
+            Console.WriteLine("hello exho");
+
+          
+        }
+
+        static void bye()
+        {
+            Console.WriteLine("bye");
+        }
     }
 }
 
