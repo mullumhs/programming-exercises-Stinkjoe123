@@ -51,7 +51,7 @@ namespace ProgrammingExercisesIST
         }
 
         // Write your methods including parameters here
-
+        static void sayhello() { }
     }
 }
 
