@@ -47,11 +47,17 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Call the methods here, passing in the required arguments
-
+           sayhello("Jordyn");
+            
         }
 
         // Write your methods including parameters here
-        static void sayhello() { }
+        static void sayhello(string name) 
+        {
+            Console.WriteLine("hello " + name);
+        
+            Console.ReadLine();
+        }
     }
 }
 
