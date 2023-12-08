@@ -63,26 +63,30 @@ namespace ProgrammingExercisesIST
     {
         static void Main(string[] args)
         {
-            // Get two numbers from the user
             int x = GetNumber();
             int y = GetNumber();
 
             // Write your code here
 
-            
-
+            int answer = multiplynumbers(x, y);
+            Console.WriteLine("answer is");
+            Console.Write(answer);
             // "Exit" method is called here
             Exit();
         }
 
         // Create your functions here
-
+        static int multiplynumbers(int num1, int num2)
+        {
+            int answer = num1 * num2;
+            return answer;
+        }
 
 
         // This is a function I have written to get a number from the user
         private static int GetNumber()
         {
-            Console.Write("Enter number: ");
+            Console.Write("Please Enter number: ");
             return int.Parse(Console.ReadLine());
         }
 
@@ -96,6 +100,7 @@ namespace ProgrammingExercisesIST
     }
 }
 
+        
 /*
 ===============================================================================
 FEEDBACK AREA: Paste your AI feedback here before submission:
